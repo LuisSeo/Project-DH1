@@ -1,0 +1,15 @@
+function palindrome(str) {
+  // Good luck!
+  var hi = str.toLowerCase();
+  var str2 = hi.replace(/\s+|,|\./g,'');
+  var str3 = str2.split("");
+  str3.reverse();
+ var arrayjoin = '';
+ arrayjoin = str3.join("");
+  return str2;
+  if(arrayjoin == str2){
+  return true;  
+  }else{return false;}
+  
+}
+palindrome("0_0 (: /-\ :) 0-0");

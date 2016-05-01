@@ -1,0 +1,12 @@
+function truncateString(str, num) {
+  // Clear out that junk in your trunk
+  var result;
+  result = str.slice(0,num);
+  if(str.length <= result.length){
+   return result; 
+  }else{
+  return result+"...";
+  }
+}
+
+truncateString("Peter Piper picked a peck of pickled peppers", 14);
